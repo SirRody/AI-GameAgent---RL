@@ -40,7 +40,7 @@ def epsilon_greedy(state_vector, epsilon):
     Returns:
         (int, int): the indices describing the action/object to take
     """
-    # TODO Your code here
+    
     with torch.no_grad():
         q_values_action, q_values_object = model(state_vector)
     
@@ -73,7 +73,6 @@ class DQN(nn.Module):
         return self.state2action(state), self.state2object(state)
 
 
-# pragma: coderesponse template
 def deep_q_learning(current_state_vector, action_index, object_index, reward,
                     next_state_vector, terminal):
     """Updates the weights of the DQN for a given transition
@@ -96,8 +95,7 @@ def deep_q_learning(current_state_vector, action_index, object_index, reward,
 
     q_value_cur_state = model(current_state_vector)
 
-    # TODO Your code here
-        # TODO Your code here
+   
     q_values_action_cur, q_values_object_cur = model(current_state_vector)
     
     # Calculate target Q-value
@@ -119,7 +117,6 @@ def deep_q_learning(current_state_vector, action_index, object_index, reward,
     optimizer.zero_grad()
     loss.backward()
     optimizer.step()
-# pragma: coderesponse end
 
 
 def run_episode(for_training):
@@ -132,7 +129,7 @@ def run_episode(for_training):
     epi_reward = None
 
     # initialize for each episode
-    # TODO Your code here
+    
     epi_reward = 0
     discount = 1.0
 
@@ -143,7 +140,7 @@ def run_episode(for_training):
         current_state_vector = torch.FloatTensor(
             utils.extract_bow_feature_vector(current_state, dictionary))
 
-        # TODO Your code here
+        
         action_index, object_index = epsilon_greedy(current_state_vector, epsilon)
 
 # Take action and get next state
@@ -156,20 +153,20 @@ def run_episode(for_training):
 
         if for_training:
             # update Q-function.
-            # TODO Your code here
+            
             deep_q_learning(current_state_vector, action_index, object_index, 
                           reward, next_state_vector, terminal)
             pass
 
         if not for_training:
             # update reward
-            # TODO Your code here
+            
             epi_reward += discount * reward
             discount *= GAMMA
             pass
 
         # prepare next step
-        # TODO Your code here
+        
         current_room_desc, current_quest_desc = next_room_desc, next_quest_desc
 
     if not for_training:
