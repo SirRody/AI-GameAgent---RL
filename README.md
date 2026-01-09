@@ -14,6 +14,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SirRody/AI-GameAgent---RL/blob/main/demo.ipynb)
 
 *Click the blue button above to see the live demo!*
+[![Reinforcement Learning](https://img.shields.io/badge/RL-Q--Learning-purple)](https://spinningup.openai.com)
 
 ## 📋 Project Overview
 
