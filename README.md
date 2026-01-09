@@ -1,3 +1,4 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SirRody/AI-GameAgent---RL/blob/main/demo.ipynb)
 # 🎮 AI Game Agent: Mastering Text-Based Adventures with Reinforcement Learning
 
 ## 📋 Project Overview
