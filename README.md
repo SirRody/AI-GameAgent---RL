@@ -1,5 +1,21 @@
 # 🎮 AI Game Agent: Mastering Text-Based Adventures with Reinforcement Learning
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.9.0-red?logo=pytorch)](https://pytorch.org)
+[![NumPy](https://img.shields.io/badge/NumPy-2.0.2-green?logo=numpy&logoColor=white)](https://numpy.org)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10.0-orange?logo=matplotlib)](https://matplotlib.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SirRody/AI-GameAgent---RL/blob/main/demo.ipynb)
+
+---
+
+## 🎮 Quick Demo
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SirRody/AI-GameAgent---RL/blob/main/demo.ipynb) [![Reinforcement Learning](https://img.shields.io/badge/RL-Q--Learning-purple)](https://spinningup.openai.com)
+
+*Click the blue button above to see the live demo!*
+
+
 ## 📋 Project Overview
 
 This project explores how artificial intelligence can learn to play text-based adventure games—similar to classic games like Zork—using three different reinforcement learning approaches. Just as a human player reads descriptions and types commands, these AI agents learn optimal strategies through trial and error, navigating virtual rooms and completing quests to maximize their rewards.
