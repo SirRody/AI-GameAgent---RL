@@ -9,11 +9,17 @@
 
 ---
 
-## 🎮 Quick Demo
+# AI GameAgent - RL
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SirRody/AI-GameAgent---RL/blob/main/demo.ipynb) [![Reinforcement Learning](https://img.shields.io/badge/RL-Q--Learning-purple)](https://spinningup.openai.com)
+## 🔧 Tech Stack
 
-*Click the blue button above to see the live demo!*
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white)
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement_Learning-Q_Learning-red)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-EE4C2C?logo=pytorch&logoColor=white)
+![Gradio](https://img.shields.io/badge/Web_Demo-Gradio-FF6B6B?logo=gradio)
+![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Hugging_Face-yellow)
+
+
 
 
 ## 📋 Project Overview
